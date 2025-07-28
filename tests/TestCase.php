@@ -21,6 +21,7 @@ class TestCase extends Orchestra
     {
         return [
             FilamentPtbrFormFieldsServiceProvider::class,
+            \Livewire\LivewireServiceProvider::class,
         ];
     }
 
